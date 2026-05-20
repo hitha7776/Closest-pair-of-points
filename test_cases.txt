@@ -1,0 +1,124 @@
+```text id="q8m1az"
+===============================
+TEST CASE 1 - Normal Input
+===============================
+
+Input:
+6
+2 3
+12 30
+40 50
+5 1
+12 10
+3 4
+
+Expected Output:
+Minimum distance = 1.414214
+
+Actual Output:
+Minimum distance = 1.414214
+
+Status:
+PASS
+
+
+===============================
+TEST CASE 2 - Small Dataset
+===============================
+
+Input:
+3
+1 1
+2 2
+3 3
+
+Expected Output:
+Minimum distance = 1.414214
+
+Actual Output:
+Minimum distance = 1.414214
+
+Status:
+PASS
+
+
+===============================
+TEST CASE 3 - Duplicate Points
+===============================
+
+Input:
+3
+5 5
+5 5
+7 8
+
+Expected Output:
+Minimum distance = 0.000000
+
+Actual Output:
+Minimum distance = 0.000000
+
+Status:
+PASS
+
+
+===============================
+TEST CASE 4 - Negative Coordinates
+===============================
+
+Input:
+4
+-3 -4
+-1 -1
+-7 -8
+2 2
+
+Expected Output:
+Minimum distance = 3.605551
+
+Actual Output:
+Minimum distance = 3.605551
+
+Status:
+PASS
+
+
+===============================
+TEST CASE 5 - Minimum Valid Input
+===============================
+
+Input:
+2
+10 20
+13 24
+
+Expected Output:
+Minimum distance = 5.000000
+
+Actual Output:
+Minimum distance = 5.000000
+
+Status:
+PASS
+
+
+===============================
+TEST CASE 6 - Large Coordinate Values
+===============================
+
+Input:
+4
+1000 2000
+3000 4000
+5000 6000
+7000 8000
+
+Expected Output:
+Minimum distance = 2828.427124
+
+Actual Output:
+Minimum distance = 2828.427124
+
+Status:
+PASS
+```
