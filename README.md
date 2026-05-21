@@ -112,7 +112,16 @@ gcc closest_pair.c -o closest_pair -lm
 ```text
 Minimum distance = 1.414214
 ```
+## Output Screenshots
 
+### Normal Case
+![Normal Case](screenshots/normal_case.png)
+
+### Duplicate Points Case
+![Duplicate Case](screenshots/duplicate_case.png)
+
+### Large Input Case
+![Large Input](screenshots/large_input.png)
 ---
 
 ## Test Cases Covered
